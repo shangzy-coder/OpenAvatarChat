@@ -24,7 +24,7 @@ jobs:
   build_and_export_docker:
     # Use machine executor for Docker support
     machine:
-      image: ubuntu-2204:2023.07.1
+      image: ubuntu-2204:current
     resource_class: medium
     
     parameters:
@@ -145,7 +145,7 @@ jobs:
   # Job for building different configurations
   build_multiple_configs:
     machine:
-      image: ubuntu-2204:2023.07.1
+      image: ubuntu-2204:current
     resource_class: medium
     
     steps:
